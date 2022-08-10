@@ -17,7 +17,7 @@ app.post('/user', (req, res) => {
 
     users.push(req.body); //push user data to user variable 
 
-    res.send('user created!')
+    res.send('user is created!')
 })
 
 // Get request 
